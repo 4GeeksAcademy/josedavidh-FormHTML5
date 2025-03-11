@@ -1,0 +1,20 @@
+.card {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.alert {
+    padding:8px;
+}
+
+#card-number::placeholder, #cvc-number::placeholder, #amount::placeholder {
+    color: lightgray;
+  }
+
+  #card-number:focus, #cvc-number:focus, #amount:focus {
+    color: #000000;
+  }
+
+  #card-number:focus::placeholder, #cvc-number:focus::placeholder, #amount:focus::placeholder {
+    color: transparent;
+  }
